@@ -1,0 +1,141 @@
+html{
+    background-color: #171A21;
+}
+
+    header{
+        margin: auto;
+        width: 100%;
+        border: 1px solid black;
+        font-family: fantasy;
+        background-color: #66c0f4;
+    }
+
+        #SuperTitle{
+            padding-left: 10px;
+            margin: 0px;
+            display: flex;
+        }
+
+        header nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        #SuperTitle, #searchBar{
+            display: inline-block;
+            justify-content: space-between;
+        }
+
+        #searchBar{
+            padding-left: 870px;
+        }
+
+        #signUpTitle{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #loginBar{
+            padding-left: 700px;
+            padding-top: 15px;
+            padding-right: 5px;
+        }
+
+        #logoutBar{
+            padding-top: 30px;
+        }
+
+   #update{
+       padding: 5px;
+   }
+
+   #sort{
+       margin: auto;
+       width: 25%;
+   }
+
+        #sort a{
+            padding: 20px;
+            color: #66c0f4;
+        }
+
+   #updates{
+        margin: auto;
+        background-color: #c7d5e0;
+        width: 800px;
+        padding-left: 20px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+   }
+
+        #updates p{
+            margin: 0%;
+            display: flex;
+        }
+
+        #updates h3{
+            margin-bottom: 0%;
+        }
+
+        #imgWrap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-right: 20px;
+        }
+
+    #full{
+        margin: auto;
+        background-color: #c7d5e0;
+        width: 50%;
+        padding-left: 20px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #fullCharacter{
+        margin: auto;
+        background-color: #c7d5e0;
+        width: 25%;
+        padding-left: 20px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        #fullCharacter h3{
+            margin: auto;
+        }
+
+    #fullBlog{
+        margin: auto;
+        background-color: #c7d5e0;
+        width: 50%;
+        padding-left: 20px;
+        padding-bottom: 8px;
+        border-radius: 25px;
+    }
+
+        #fullComment{
+            margin: auto;
+            background-color: #c7d5e0;
+            width: 25%;
+            padding-left: 20px;
+            padding-bottom: 8px;
+            border-radius: 25px;
+        }
+
+#New{
+    margin: auto;
+    width: 50%;
+    color: white;
+    padding-top: 10px;
+}
+
+    #New textarea{
+        color: white;
+        background-color: #171A21;
+    }
